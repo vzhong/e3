@@ -1,0 +1,11 @@
+cache/
+editor_save
+editor_save/**/*
+save
+save/**/*
+pred
+pred/**/*
+.git
+.git/**/*
+sharc
+sharc/**/*

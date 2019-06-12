@@ -1,0 +1,11 @@
+*.py[cod]
+*.txt
+*.json*
+*.pt
+cache/
+*save/
+embeddings/
+stanfordnlp_resources/
+node_modules/
+sharc/
+trained/
