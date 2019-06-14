@@ -1,6 +1,6 @@
 # E3: Entailment-driven Extracting and Editing for Conversational Machine Reading
 
-This repository contains the source code for the paper [E3: Entailment-driven Extracting and Editing for Conversational Machine Reading]().
+This repository contains the source code for the paper [E3: Entailment-driven Extracting and Editing for Conversational Machine Reading](https://arxiv.org/abs/1906.05373).
 This work was published at ACL 2019.
 If you find the paper or this repository helpful in your work, please use the following citation:
 
