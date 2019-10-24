@@ -105,13 +105,13 @@ def get_span(context, answer):
 
 
 def get_bullets(context):
-    indices = [i for i, c in enumerate(context) if c == '*']
+    indices = [i for i, c in enumerate(context) if c['sub'] == '*']
     pairs = list(zip(indices, indices[1:] + [len(context)]))
     cleaned = []
     for s, e in pairs:
-        while not context[e-1].strip():
+        while not context[e-1]['sub'].strip():
             e -= 1
-        while not context[s].strip() or context[s] == '*':
+        while not context[s]['sub'].strip() or context[s]['sub'] == '*':
             s += 1
         if e - s > 2 and e - 2 < 45:
             cleaned.append((s, e-1))
