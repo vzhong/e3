@@ -3,6 +3,6 @@ stanfordnlp==0.1.1
 pytorch-pretrained-bert==0.4.0
 torch==1.0.0
 numpy==1.14.2
-ujson==1.35
+ujson==5.4.0
 embeddings==0.0.6
 vocab==0.0.4
